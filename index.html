@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form id="registration-form">
+        <input type="text" id="student-name" placeholder="Student Name" required>
+        <input type="text" id="student-class" placeholder="Class" required>
+        <input type="text" id="student-address" placeholder="Address" required>
+        <input type="tel" id="student-contact" placeholder="Contact Number" pattern="[0-9]{10}" required>
+        <button type="submit">Add</button>
+    </form>
+    <div id="student-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
